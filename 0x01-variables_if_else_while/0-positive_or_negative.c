@@ -8,6 +8,7 @@
 int main(void)
 {
 	int n;
+
 	scanf(n)
 	if (n > 0)
 	{
