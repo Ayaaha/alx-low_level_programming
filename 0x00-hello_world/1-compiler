@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o $CFILE |cut -d .c $CFILE -f .o
+gcc -c $CFILE -o $CFILE | cut -d .c -f .o
