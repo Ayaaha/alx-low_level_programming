@@ -12,8 +12,9 @@ int main(void)
 {
 
 	char a, b, c, d;
-
-	for (a = 0; a <= 9; a++)
+do
+{
+		a=0
 		putchar('0' + a);
 
 	for (b = 1; b <= 9; b++)
@@ -22,11 +23,9 @@ int main(void)
 	for (c = 2; c <= 9; c++)
 		putchar('0' + c);
 
-	for (d = 3; d <= 9; d++)
-		putchar('0' + d);
-		if (a == 9)
-			break;
 		putchar(44);
 		putchar(' ');
+}
+		while (a <= 9)
 	return (0);
 }
