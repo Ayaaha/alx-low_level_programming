@@ -9,12 +9,12 @@
 
 int main(void)
 {
-
-	char hex, ch;
+	int hex;
+	char ch;
 
 	for (hex = 0; hex <= 9; hex++)
 	{
-		putchar(hex);
+		putchar('0' + hex);
 	}
 	for (ch = 'a'; ch <= 'f'; ch++)
 	{
