@@ -5,7 +5,8 @@
  *
  * Description:alphabet in lowercase
  *
- * Return Always 0 (Success)*/
+ * Return Always 0 (Success)
+ */
 int main(void)
 {
 
@@ -14,7 +15,6 @@ int main(void)
 	for (alpha = 1; alpha < 26; alpha++)
 	{
 		putchar(alpha);
-		putchar('\t');
 	}
 	return (0);
 }
