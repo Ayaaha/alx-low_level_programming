@@ -17,7 +17,7 @@ int main(void)
 
 	for (numz = 0; numz <= 9; numz++)
 	{
-		int putchar(int numz);
+		putchar('0' + numz);
 	}
 		putchar('\n');
 	return (0);
