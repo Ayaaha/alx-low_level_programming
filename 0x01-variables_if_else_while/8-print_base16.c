@@ -10,12 +10,14 @@
 int main(void)
 {
 
-	char hex;
+	char hex, ch;
 
-	for (hex = 0x1; hex <= 0x16; hex++)
+	for (hex = 0; hex <= 9; hex++)
 	{
 		putchar(hex);
+	for (ch = 'a'; ch <= 'f'; ch++)
+		putchar(ch);
 	}
-	putchar('\n');
+		putchar('\n');
 	return (0);
 }
