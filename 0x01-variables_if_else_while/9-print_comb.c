@@ -16,7 +16,8 @@ int main(void)
 	for (cb = 0; cb <= 9; cb++)
 	{
 		putchar('0' + cb);
-		putchar('0' + ',');
+		putchar('\t');
+		putchar(44);
 	}
 		putchar('\n');
 	return (0);
