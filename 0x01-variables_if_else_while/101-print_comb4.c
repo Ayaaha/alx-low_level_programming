@@ -21,9 +21,7 @@ int main(void)
 		{
 			for (c = 0; c <= 9; c++)
 			{
-			if (a == b)
-				continue;
-
+			if (a != b && a < b)
 		putchar('0' + b);
 		putchar('0' + a);
 		putchar('0' + c);
