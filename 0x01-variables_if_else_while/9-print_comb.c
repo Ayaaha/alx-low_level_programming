@@ -16,8 +16,8 @@ int main(void)
 	for (cb = 0; cb <= 9; cb++)
 	{
 		putchar('0' + cb);
-		putchar(' ');
 		putchar(44);
+		putchar(' ');
 	}
 		putchar('\n');
 	return (0);
