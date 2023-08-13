@@ -11,9 +11,8 @@ int main(void)
 {
 
 	char alpha = 'a';
-	int i;
 
-	for (i = 1; i < 26; i++)
+	for (alpha = 1; alpha < 26; alpha++)
 		int putchar(alpha);
 	return (0);
 }
