@@ -13,7 +13,7 @@ int main(void)
 
 	char alpha = 'a';
 
-	for (alpha = 1; alpha < 27; alpha++)
+	for (alpha = 0; alpha <= 26; alpha++)
 	{
 		putchar(alpha);
 	}
