@@ -13,7 +13,7 @@ int main(void)
 
 	int cb;
 
-	for (cb = 0; cb <= 9; cb++)
+	for (cb = 0; cb <= 9; ++cb)
 	{
 		putchar('0' + cb);
 		putchar(44);
