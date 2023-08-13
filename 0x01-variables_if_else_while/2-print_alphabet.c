@@ -12,10 +12,10 @@ int main(void)
 
 	char alpha = 'a';
 
-	for (alpha = 0; alpha < 26; alpha++)
+	for (alpha = 1; alpha < 26; alpha++)
 	{
 		putchar(alpha);
-		putchar("\n");
+		putchar('\n');
 	}
 	return (0);
 }
