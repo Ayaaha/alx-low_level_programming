@@ -16,6 +16,8 @@ int main(void)
 	for (cb = 0; cb <= 9; ++cb)
 	{
 		putchar('0' + cb);
+		if (cb == 9)
+			break;
 		putchar(44);
 		putchar(' ');
 	}
