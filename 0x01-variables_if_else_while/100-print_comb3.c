@@ -18,7 +18,7 @@ int main(void)
 		for (b = 1; b <= 9; b++)
 		if ((a != b) && (a < b))
 		{
-		if (a == 8 || b == 9)
+		if (a == 8 && b == 9)
 		break;
 
 		putchar('0' + a);
