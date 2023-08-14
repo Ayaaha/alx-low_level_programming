@@ -19,7 +19,7 @@ int main(void)
 		{
 		for (c = 2; c <= 9; c++)
 		{
-		if ((a != b && b != c && c != d)
+		if (a != b && b != c && c != d)
 		if (a < b && b < c && c < d)
 		for (d = 3; d <= 9; d++)
 		{
