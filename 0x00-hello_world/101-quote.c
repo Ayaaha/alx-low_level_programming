@@ -3,10 +3,13 @@
 /**
  * main - Entry Point
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
-	perror("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+
+	char dora[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, dora, 59);
 	return (1);
 }
