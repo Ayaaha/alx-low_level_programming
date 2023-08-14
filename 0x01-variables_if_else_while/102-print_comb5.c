@@ -15,7 +15,7 @@ int main(void)
 
 	for (a = 0; a <= 99; a++)
 	{
-		a = b;
+		b = a;
 			for (b = 0; b <= 99; b++)
 			{
 			if (a != b)
