@@ -3,7 +3,7 @@
 /**
  * main - Entry Point
  *
- * Description: all possible different combinations of two digits
+ * Description: all possible combinations of two two-digit numbers
  *
  * Return:  0 (Success)
  */
@@ -11,22 +11,27 @@
 int main(void)
 {
 
-	int a, b, c;
+	int a, b, c, d;
 
 	for (a = 0; a <= 9; a++)
 	{
 		for (b = 1; b <= 9; b++)
 		{
 		for (c = 2; c <= 9; c++)
-		if ((a != b) && (b != c) && (a < b) && (b < c))
+		{
+		for (d = 3; d <= 9; d++)
+		if ((a != b) && (b != c) && (c != d) && (a < b < c < d))
 		{
 		putchar('0' + a);
 		putchar('0' + b);
+		putchar(' ');
 		putchar('0' + c);
-		if (a == 7 && b == 8 && c == 9)
+		putchar('0' + d);
+		if (a == 9 && b == 8 && c == 9 && d == 9)
 		break;
 		putchar(44);
 		putchar(' ');
+		}
 		}
 		}
 	}
