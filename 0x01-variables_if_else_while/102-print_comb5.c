@@ -13,11 +13,12 @@ int main(void)
 
 	int a, b;
 
-	for (a = 1; a <= 99; a++)
+	for (a = 0; a <= 99; a++)
 	{
 		for (b = a; b <= 99; b++)
 		{
 		if (a != b)
+		{
 		putchar('0' + a / 10);
 		putchar('0' + a % 10);
 		putchar(' ');
@@ -27,6 +28,7 @@ int main(void)
 		break;
 		putchar(44);
 		putchar(' ');
+		}
 		}
 	}
 	putchar('\n');
