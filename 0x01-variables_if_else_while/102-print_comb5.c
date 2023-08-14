@@ -23,6 +23,7 @@ int main(void)
 		putchar(' ');
 		putchar('0' + b / 10);
 		putchar('0' + b % 10);
+		if (a == 98 && b == 99)
 		break;
 		putchar(44);
 		putchar(' ');
