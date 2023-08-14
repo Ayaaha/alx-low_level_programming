@@ -15,17 +15,17 @@ int main(void)
 
 	for (a = 0; a <= 9; a++)
 	{
-		for (b = 1; b <= 9; b++)
+		for (b = 0; b <= 9; b++)
 		{
-		for (c = 2; c <= 9; c++)
-		{
-		for (d = 3; d <= 9; d++)
-		{
-		if (a < b && b < c && c < d)
-		if (a != b && b != c && c != d)
+		if (a != b && a < b)
 		putchar('0' + a);
 		putchar('0' + b);
 		putchar(' ');
+		for (c = 0; c <= 9; c++)
+		{
+		for (d = 0; d <= 9; d++)
+		{
+		if (c != d && c < d)
 		putchar('0' + c);
 		putchar('0' + d);
 		if (a == 9 && b == 8 && c == 9 && d == 9)
