@@ -19,10 +19,10 @@ int main(void)
 		{
 		for (c = 2; c <= 9; c++)
 		{
-		for (d = 3; d <= 9; d++)
-		{
 		if ((a != b && b != c && c != d)
 		if (a < b && b < c && c < d)
+		for (d = 3; d <= 9; d++)
+		{
 		putchar('0' + a);
 		putchar('0' + b);
 		putchar(' ');
