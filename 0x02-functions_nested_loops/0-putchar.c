@@ -11,8 +11,8 @@
 int main(void)
 {
 
-	char ch[] = "_putchar";
+	char ch[] = "_putchar\n";
 
-	write(1, ch, 8);
+	write(1, ch, 9);
 	return (0);
 }
