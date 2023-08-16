@@ -12,6 +12,7 @@
  * int _islower - checks for lowercase character
  * int _isalpha - checks for alphabetic character
  * int print_sign - int print_sign
+ * int _abs - computes the absolute value of an integer
  */
 
 int main(void);
@@ -21,5 +22,6 @@ void print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
+int _abs(int);
 
 #endif
