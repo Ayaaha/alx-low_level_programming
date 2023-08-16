@@ -8,10 +8,16 @@
  */
 void print_to_98(int n)
 {
-	printf("please enter first number");
-	scanf("%d", &n);
-		do {
-		printf("%d", n);
-		printf(", ");
-		} while (n <= 98);
-}
+	int count;
+
+	if (n > 98)
+	{
+	for (count = n; n > 98; count--)
+	printf("%d, ", n);
+	}
+		else
+		{
+		for (count = n; n < 98; count++)
+		printf("%d, ", n);
+		}
+
