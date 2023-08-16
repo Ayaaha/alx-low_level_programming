@@ -6,12 +6,12 @@
  *
  * Return: 0 Success
  */
-int _abs(int)
+int _abs(int c)
 {
-	int c;
-
-	if (c < 0) 
+	if (c < 0)
+	{
 	c *= -1;
 	_putchar(c);
 	return (0);
+	}
 }
