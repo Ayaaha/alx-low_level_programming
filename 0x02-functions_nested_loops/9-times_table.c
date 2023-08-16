@@ -19,10 +19,7 @@ void times_table(void)
 			_putchar(' ');
 			t = r * c;
 			if (t <= 9)
-			{
-			_putchar(t + '0');
 			_putchar(' ');
-			}
 				else
 				{
 				_putchar('0' + t / 10);
