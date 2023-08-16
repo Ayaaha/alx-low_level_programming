@@ -17,7 +17,7 @@ void times_table(void)
 			t = r * c;
 			if (t <= 9)
 			{
-			_putchar('0' + t);
+			_putchar(t + '0');
 			if (c == 9)
 			break;
 			_putchar(',');
