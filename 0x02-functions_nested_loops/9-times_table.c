@@ -15,20 +15,24 @@ void times_table(void)
 		for (c = 0; c <= 9; c++)
 		{
 			t = r * c;
-			if (t <= 9 && c != 9)
+			if (t <= 9)
 			{
 			_putchar('0' + t);
+			if (c == 9)
+			break;
 			_putchar(',');
 			_putchar(' ');
+			}
 				else
 				{
 				_putchar('0' + t / 10);
 				_putchar('0' + t % 10);
+				if (c == 9)
+				break;
 				_putchar(',');
 				_putchar(' ');
 				}
-			}
 		}
-			_putchar('\n');
+			_putchar('i\n');
 	}
 }
