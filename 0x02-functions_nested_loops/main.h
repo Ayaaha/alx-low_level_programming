@@ -13,6 +13,7 @@
  * int _isalpha - checks for alphabetic character
  * int print_sign - int print_sign
  * int _abs - computes the absolute value of an integer
+ * int print_last_digit - prints the last digit of a number
  */
 
 int main(void);
@@ -23,5 +24,6 @@ int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
+int print_last_digit(int);
 
 #endif
