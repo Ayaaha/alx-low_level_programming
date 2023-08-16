@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
- * @c: character to be checked
+ * _abs - computes the absolute value of an integer
+ * @c: character to be computed
  *
- * Return: 1 Success
+ * Return: 0 Success
  */
-int _isalpha(int c)
+int _abs(int)
 {
-	if ((c  >= 97 && c <= 122) || (c >= 65 && c <= 90))
-	return (1);
-	else
+	int c;
+
+	if (c < 0) 
+	c *= -1;
+	_putchar(c);
 	return (0);
 }
-
