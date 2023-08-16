@@ -6,6 +6,8 @@
  *
  * Return: 1 Success
  */
+int main(void)
+{
 int _islower(int c)
 {
 	for (c = 97; c <= 122; c++)
@@ -15,5 +17,6 @@ int _islower(int c)
 	else
 	return (0);
 	}
+}
 }
 
