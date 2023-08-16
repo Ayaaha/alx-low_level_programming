@@ -17,7 +17,8 @@ void times_table(void)
 			t = r * c;
 			_putchar('0' + t);
 			_putchar(',');
-			_putchar('  ');
+			_putchar(' ');
+			_putchar(' ');
 		}
 			_putchar('\n');
 	}
