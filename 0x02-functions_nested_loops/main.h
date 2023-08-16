@@ -14,7 +14,7 @@
  * int print_sign - int print_sign
  * int _abs - computes the absolute value of an integer
  * int print_last_digit - prints the last digit of a number
- *
+ * void jack_bauer - prints every minute of the day
  */
 
 int main(void);
@@ -26,5 +26,6 @@ int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
+void jack_bauer(void);
 
 #endif
