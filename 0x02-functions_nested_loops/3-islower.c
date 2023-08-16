@@ -8,7 +8,7 @@
  */
 int _islower(int c)
 {
-	for (c = 0; c <= 128, c++)
+	for (c = 90; c <= 128, c++)
 	if (islower(c))
 	return (1);
 	else
