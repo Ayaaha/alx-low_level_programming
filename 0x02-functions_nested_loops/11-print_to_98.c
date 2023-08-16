@@ -11,7 +11,7 @@ void print_to_98(int n)
 	printf("please enter first number");
 	scanf("%d", &n);
 		do {
-		printf("%d", n)
+		printf("%d", n);
 		printf(", ");
 		} while (n <= 98);
 }
