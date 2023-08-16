@@ -8,12 +8,9 @@
  */
 int _isalpha(int c)
 {
-	for (c = 0; c <= 127; c++)
-	{
-	if (isalpha(c))
+	if ((c  >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	return (1);
 	else
 	return (0);
-	}
 }
 
