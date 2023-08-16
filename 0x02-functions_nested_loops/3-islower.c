@@ -6,17 +6,12 @@
  *
  * Return: 1 Success
  */
-int main(void)
-{
+
 int _islower(int c)
 {
-	for (c = 97; c <= 122; c++)
-	{
-	if (islower(c))
+	if (c >= 97 && c <= 122)
 	return (1);
 	else
 	return (0);
-	}
-}
-}
 
+}
