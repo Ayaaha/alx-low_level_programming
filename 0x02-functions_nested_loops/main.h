@@ -17,6 +17,7 @@
  * void jack_bauer - prints every minute of the day
  * void times_table -  prints the 9 times table
  * int add - adds two integers and returns the result
+ * void print_to_98 - prints all natural numbers from n to 98
  */
 
 int main(void);
@@ -31,5 +32,5 @@ int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
 int add(int, int);
-
+void print_to_98(int n);
 #endif
