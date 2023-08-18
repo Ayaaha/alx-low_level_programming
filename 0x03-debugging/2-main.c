@@ -3,9 +3,11 @@
 
 /**
 * main - prints the largest of 3 integers
+* @int: numbers will be compared between
 * Return: 0
 */
 
+int largest_number(int, int, int);
 int main(void)
 {
 	int a, b, c;
