@@ -8,7 +8,7 @@
 
 void more_numbers(void)
 {
-	int i, num;
+	int i, num, num1;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -18,8 +18,8 @@ void more_numbers(void)
 			_putchar(num + '0');
 			if (num > 9)
 			{
-				num = num % 10;
-				_putchar(num + '0');
+				num1 = num % 10;
+				_putchar(num1 + '0');
 			}
 		}
 	_putchar('\n');
