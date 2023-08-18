@@ -11,6 +11,7 @@
  *  _isgigit  - checks for a digit
  *  mul  - multiply two integar numbers
  *  print_numbers - prints the numbers from 0 to 9
+ *  print_most_numbers - prints the numbers from 0 to 9 except 2 and 4
  */
 
 int main(void);
@@ -19,5 +20,5 @@ int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
 void print_numbers(void);
-
+void print_most_numbers(void);
 #endif
