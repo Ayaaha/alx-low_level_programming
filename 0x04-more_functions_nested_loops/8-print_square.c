@@ -6,7 +6,7 @@
  * Return: 1 Success
  */
 
-void print_square(int size);
+void print_square(int size)
 {
 	int rows, col;
 
