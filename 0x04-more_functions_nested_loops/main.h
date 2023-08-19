@@ -1,8 +1,6 @@
 #ifndef MAIN
 #define MAIN
 #include <stdio.h>
-#include <unistd.h>
-#include <ctype.h>
 
 /**
  * _putchar - Print character to the output
