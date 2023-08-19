@@ -15,6 +15,7 @@
  *  more_numbers - prints 10 times the numbers, from 0 to 14
  *  print_line - draw stright line
  *  print_diagonal - draw diagonal line
+ *  print_square - prints a square
  */
 
 int main(void);
@@ -27,5 +28,6 @@ void print_most_numbers(void);
 void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
+void print_square(int size);
 
 #endif
