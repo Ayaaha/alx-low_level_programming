@@ -1,6 +1,7 @@
 #ifndef MAIN
 #define MAIN
 #include <stdio.h>
+#include <string.h>
 
 /**
  * _putchar - Print character to the output
@@ -11,11 +12,14 @@
  * swap_int -  swaps the values of two integers
  * @*a:first value
  * @*b:second value
+ * _strlen -  returns the length of a string
+ * @*s:length of string
  */
 
 int main(void);
 int _putchar(char ch);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
+int _strlen(char *s);
 
 #endif
