@@ -18,7 +18,8 @@
  * @*str: string
  * print_rev -  prints a string in reverse
  * rev_string - reverses a string
- * _puts2 -  prints a string
+ * puts2 -  prints a string
+ * puts_half -  prints a string
  */
 
 int main(void);
@@ -30,5 +31,6 @@ void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
+void puts_half(char *str);
 
 #endif
