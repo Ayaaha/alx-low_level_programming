@@ -8,14 +8,12 @@
  */
 void print_array(int *a, int n)
 {
-	for (n = 0; a[n] != '\0'; n++)
+	int m;
+
+	m = n - 1;
+	for (m = 0; a[m] != '\0'; m++)
 	{
-		_putchar(a[n]);
-		if (a[n] == '\0')
-		{
-		_putchar(',');
-		_putchar(' ');
-		}
+		printf("%d, ", a[m]);
 	}
-	_putchar('\n');
+	printf("\n");
 }
