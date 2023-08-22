@@ -21,6 +21,9 @@
  * puts2 -  prints a string - print one - skip one
  * puts_half -  prints a string from the half of it
  * print_array - prints n elements of an array of integers
+ * *_strcpy copies the string pointed to by src
+ * @*dest:  the buffer pointed to by dest.
+ * @*src: he string pointed to by src
  */
 
 int main(void);
@@ -34,5 +37,5 @@ void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
-
+char *_strcpy(char *dest, char *src);
 #endif
