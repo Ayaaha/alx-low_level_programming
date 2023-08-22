@@ -2,6 +2,7 @@
 #define MAIN
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 /**
  * _putchar - Print character to the output
@@ -24,6 +25,7 @@
  * *_strcpy copies the string pointed to by src
  * @*dest:  the buffer pointed to by dest.
  * @*src: he string pointed to by src
+ * _atoi - convert a string to an integer.
  */
 
 int main(void);
@@ -38,4 +40,6 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
+
 #endif
