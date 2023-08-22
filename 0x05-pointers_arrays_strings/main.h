@@ -13,11 +13,11 @@
  * @*a:first value
  * @*b:second value
  * _strlen -  returns the length of a string
- * @*s:length of string
+ * @*s: length of string
  * _puts -  prints a string
  * @*str: string
  * print_rev -  prints a string in reverse
- * @*s: reverse string
+ * rev_string - reverses a string
  */
 
 int main(void);
@@ -27,5 +27,5 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
-
+void rev_string(char *s);
 #endif
