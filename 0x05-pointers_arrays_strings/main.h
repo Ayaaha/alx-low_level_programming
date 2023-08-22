@@ -18,6 +18,7 @@
  * @*str: string
  * print_rev -  prints a string in reverse
  * rev_string - reverses a string
+ * _puts2 -  prints a string
  */
 
 int main(void);
@@ -28,4 +29,6 @@ int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
+void puts2(char *str);
+
 #endif
