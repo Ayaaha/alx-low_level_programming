@@ -8,15 +8,12 @@
 
 int _atoi(char *s)
 {
-	/*
-	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-	
-	}*/
 	int num;
 
+	while(*s && !isdigit(*s) && *s != '-' && *s != '+')
+	{
+	s++;
+	}
 	num = atoi(s);
 	return (num);
 }
