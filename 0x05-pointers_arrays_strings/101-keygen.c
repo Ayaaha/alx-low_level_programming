@@ -12,7 +12,7 @@ int main(void)
 
 	srand(time(NULL));
 
-	for (i = 0; i < 9000; i++)
+	for (i = 1; i < 9000; i++)
 	{
 		random = rand() % 120;
 		i = i + random;
