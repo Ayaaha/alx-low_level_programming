@@ -10,7 +10,7 @@ int main(void)
 	int i;
 	int random;
 
-	srand(time(NULL));
+	srand(time());
 
 	for (i = 1; i < 9000; i++)
 	{
