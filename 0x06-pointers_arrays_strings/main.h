@@ -2,7 +2,6 @@
 #define MAIN
 #include <stdio.h>
 #include <string.h>
-
 /**
  * main - main function
  * Return: int value
