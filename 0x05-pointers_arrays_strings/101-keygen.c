@@ -16,6 +16,7 @@ int main(void)
 	{
 		random = rand() % 120;
 		i = i + random;
+		_putchar(random);
 	}
 	_putchar(2727 - i);
 	return (0);
