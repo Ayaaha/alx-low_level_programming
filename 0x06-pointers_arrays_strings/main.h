@@ -12,10 +12,13 @@
  * @*dest: destination pointer
  * *_strncat -  appends the src string to the dest string
  * @*n: n bytes
+ * *_strncpy -  copies a string.
  */
 
 int main(void);
 int _putchar(char ch);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
+
 #endif
