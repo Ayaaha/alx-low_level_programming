@@ -10,11 +10,12 @@
  * @*src:the string pointed to by src
  * @*dest: destination pointer
  * *_strncat -  appends the src string to the dest string
- * @*n: n bytes
+ * @n: n bytes- the number of elements of the array
  * *_strncpy -  copies a string
  * _strcmp - compares two strings
  * @*s1: first string
  * @*s2: second string
+ * @*a: resversed array
  */
 
 int main(void);
@@ -23,4 +24,6 @@ char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
+void reverse_array(int *a, int n);
+
 #endif
