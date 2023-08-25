@@ -42,6 +42,8 @@ char *cap_string(char *orig)
 				}
 				break;
 		}
+		if (a[i] == '\t')
+			a[i] = ' ';
 	i++;
 	}
 	return (orig);
