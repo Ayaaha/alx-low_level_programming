@@ -18,6 +18,8 @@
  * @*a: resversed array
  * *string_toupper - changes all lowercase letters of a string to uppercase
  * *cap_string - capitalizes all words of a string
+ * *leet - encode a string
+ * *rot13 - encodes a string using rot13
  */
 
 int main(void);
@@ -29,5 +31,7 @@ int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
+char *leet(char *);
+char *rot13(char *);
 
 #endif

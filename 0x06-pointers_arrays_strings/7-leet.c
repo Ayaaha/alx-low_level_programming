@@ -8,9 +8,11 @@
 
 char *cap_string(char *orig)
 {
-	int i = 0;
+	int i;
 	char c;
 	char *a = orig;
+
+	i = 0;
 
 	if (a[i] != '\0')
 	{
@@ -41,9 +43,7 @@ char *cap_string(char *orig)
 				break;
 		}
 		if (a[i] == '\t')
-		{
 			a[i] = ' ';
-		}
 	i++;
 	}
 	return (orig);
