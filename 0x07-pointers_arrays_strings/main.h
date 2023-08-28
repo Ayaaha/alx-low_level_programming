@@ -13,6 +13,7 @@
  * @*dest: destination memory area
  * @*src: source memory area
  * *_strchr - function that locates a character in a string
+ * _strspn -  gets the length of a prefix substring
  */
 
 int main(void);
@@ -20,4 +21,5 @@ int _putchar(char ch);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
 #endif
