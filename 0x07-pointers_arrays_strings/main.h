@@ -18,7 +18,8 @@
  * *_strstr -  locates a substring
  * *haystack - string
  * *needle - occurance of the substring
- * @a: array [8][8]
+ * @*a: array [8][8]
+ * print_diagsums -  prints the sum of the two diagonals of a square matrix
  */
 
 int main(void);
@@ -30,5 +31,5 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
-
+void print_diagsums(int *a, int size);
 #endif
