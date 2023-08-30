@@ -12,6 +12,7 @@
  * _print_rev_recursion -  prints a string in reverse
  * _strlen_recursion - returns the length of a string
  * factorial - returns the factorial of a given number
+ * _pow_recursion -  returns the value of x raised to the power of y
  */
 
 int main(void);
@@ -20,4 +21,5 @@ void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 int factorial(int n);
+int _pow_recursion(int x, int y);
 #endif
