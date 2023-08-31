@@ -14,6 +14,7 @@
  * factorial - returns the factorial of a given number
  * _pow_recursion -  returns the value of x raised to the power of y
  * _sqrt_recursion - eturns the natural square root of a number
+ * square - helper recursion function
  */
 
 int main(void);
@@ -24,5 +25,6 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
+int square(int n, int v);
 
 #endif

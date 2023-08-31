@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - eturns the natural square root of a number
+ * _sqrt_recursion - returns the natural square root of a number
  * @n: number recived by the function
+ * @v: value
  * Return: 1 Success
  */
+
+int square(int n, int v);
 
 int _sqrt_recursion(int n)
 {
@@ -12,24 +15,28 @@ int _sqrt_recursion(int n)
 
 	squ = 1;
 
-	if (n < 0)
-	{
-	return (-1);
-	}
-	else if (n == 0 || n == 1)
-	{
-	return (n);
-	}
-	else
-	{
-	squ = _sqrt_recursion(n - 1);
-	if (squ * squ == n)
-	{
+	squ = square(n, 1);
 	return (squ);
+}
+/**
+ * square -  helper recursion function
+ * @v: value
+ * @n: number recived by the function
+ * Return: 1 Success
+ */
+
+int square(int n, int v)
+{
+	if (v * v == n)
+	{
+	return (v);
+	}
+	else if (v * v < n)
+	{
+	return (square(n, v + 1));
 	}
 	else
 	{
 	return (-1);
-	}
 	}
 }
