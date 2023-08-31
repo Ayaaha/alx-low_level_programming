@@ -15,6 +15,7 @@
  * _pow_recursion -  returns the value of x raised to the power of y
  * _sqrt_recursion - eturns the natural square root of a number
  * square - helper recursion function
+ * is_prime_number -  returns 1 if the input integer is a prime number
  */
 
 int main(void);
@@ -26,5 +27,6 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int square(int n, int v);
+int is_prime_number(int n);
 
 #endif
