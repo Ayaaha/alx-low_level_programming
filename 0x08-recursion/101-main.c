@@ -1,5 +1,4 @@
-#i:wq
-nclude "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
