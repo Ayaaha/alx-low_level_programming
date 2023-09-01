@@ -31,15 +31,15 @@ int is_palindrome(char *s)
 
 int palindrome(char *sb, char *sd)
 {
-	if (*sb == 0 && *sd == 0)
+	if (*sb == '\0' && *sd == '\0')
 	{
 	return (1);
 	}
-	else if (sb >= sd)
+	else if (sb > sd)
 	{
 	return (1);
 	}
-	else if (sb != sd)
+	else if (*sb != *sd)
 	{
 	return (0);
 	}
