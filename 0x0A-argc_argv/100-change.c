@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 	int min, i;
 	int total_change;
 	int changes[5] = {25, 10, 5, 2, 1};
+
 	min = 0;
 
 	if (argc != 2)
