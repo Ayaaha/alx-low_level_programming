@@ -31,34 +31,10 @@ int main(int argc, char *argv[])
 	{
 	while (total_change >= changes[i])
 	{
-	else if (total_change >= 25)
-	{
-	total_change = total_change - 25;
-	a++;
-	}
-	else if (total_change >= 10)
-	{
-	total_change = total_change - 10;
-	b++;
-	}
-	else if (total_change >= 5)
-	{
-	total_change = total_change - 5;
-	c++;
-	}
-	else if (total_change >= 2)
-	{
-	total_change = total_change - 2;
-	d++;
-	}
-	else
-	{
-	total_change = total_change - 1;
-	e++;
+		total_changes = total+changes - changes[i];
+		min++;
 	}
 	}
-	min = a + b + c + d + e;
 	printf("%d\n", min);
-	total_change = atoi(argv[0]);
 	return (0);
 }
