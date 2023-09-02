@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int min;
+	int min, i;
 	int total_change;
 	int changes[5] = {25, 10, 5, 2, 1};
 	min = 0;
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 	{
 	while (total_change >= changes[i])
 	{
-		total_changes = total+changes - changes[i];
+		total_change = total_change - changes[i];
 		min++;
 	}
 	}
