@@ -2,7 +2,7 @@
 
 /**
  * free_grid - free the previous grid
- * @**grid: two dimenstional array
+ * @grid: two dimenstional array
  * @height: the height of the array
  * Return: 1 Success
  *
@@ -15,13 +15,13 @@ void free_grid(int **grid, int height)
 
 	if (height <= 0 || grid == NULL)
 	{
-	return (NULL);
+	return;
 	}
 	if (height > 0)
 	{
 		for (i = 0; i < height; i++)
 		{
-			free(g[i]);
+			free(grid[i]);
 		}
 		free(grid);
 	}
