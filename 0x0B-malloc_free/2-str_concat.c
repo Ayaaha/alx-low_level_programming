@@ -31,11 +31,11 @@ char *str_concat(char *s1, char *s2)
 	}
 	else
 	{
-		for (i = 0; i <= len1; i++)
+		for (i = 0; i < len1; i++)
 		{
 		total_string[i] = s1[i];
 		}
-		for (j = 0; j <= len2; j++)
+		for (j = 0; j < len2; j++)
 		{
 		total_string[i + j] = s2[j];
 		}
