@@ -11,6 +11,7 @@
  * *create_array - creates an array of chars
  * *_strdup - returns a pointer to a newly allocated space in memory
  * *_str_concat - concatenates two strings
+ * **alloc_grid -  returns a pointer to a 2 dimensional array of integers
  */
 
 int main(void);
@@ -18,5 +19,6 @@ int _putchar(char ch);
 char *create_array(unsigned int size, char c);
 char *_strdup(char *str);
 char *str_concat(char *s1, char *s2);
+int **alloc_grid(int width, int height);
 
 #endif
