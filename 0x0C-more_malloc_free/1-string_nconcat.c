@@ -41,11 +41,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 		total_string[i] = s1[i];
 		}
-		for (j = 0; j < len2; j++)
+		for (j = 0; j < n && s2[j] != '\0'; j++)
 		{
 		total_string[i + j] = s2[j];
 		}
-		total_string[total_len] = '\0';
+		total_string[i = j] = '\0';
 	return (total_string);
 	}
 }
