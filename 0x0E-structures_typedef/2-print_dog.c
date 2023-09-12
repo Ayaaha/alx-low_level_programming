@@ -11,7 +11,7 @@
  * Return: 1 on (success)
  */
 
-void init_dog(struct dog *d, char *name, float age, char *owner)
+void print_dog(struct dog *d)
 {
 	if (d == NULL)
 	{
@@ -25,6 +25,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	{
 		d->owner = "(nil)";
 	}
-	printf("Name:%s\nAge: %f\nOwner:%s\n", d->name, d.age, d->owner);
+	printf("Name:%s\nAge: %f\nOwner:%s\n", d->name, d->age, d->owner);
 
 }
