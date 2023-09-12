@@ -2,12 +2,9 @@
 #include <stdio.h>
 
 /**
- * init_dog - initlize a variable of type struct
+ * print_dog - print struct
  * struct dog - structure
  * @d: dog
- * @name: name of the dog
- * @age: age of the dog
- * @owner: name of the owner
  * Return: 1 on (success)
  */
 
