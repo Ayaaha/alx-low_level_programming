@@ -11,7 +11,9 @@ int strlength(char *str)
 {
 	int i, len;
 
-	for (i = 0; str[i]; != '\0'; i++)
+	len = 0;
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
 	len++;
 	}
@@ -24,7 +26,7 @@ int strlength(char *str)
  * Return: value to be returned
  */
 
-char *strcopy(char *s1, char *s2)
+void strcopy(char *s1, char *s2)
 {
 	int i;
 
@@ -33,7 +35,6 @@ char *strcopy(char *s1, char *s2)
 		s2[i] = s1[i];
 	}
 		s2[i] = '\0';
-	return (s2);
 }
 /**
  * new_dog - creates a new dog
@@ -50,24 +51,26 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		return (NULL);
 	}
-	d = (dog_t *) malloc((sizeof(dog_t)));
+	d = (dog_t *)malloc(sizeof(dog_t));
 	if (d == NULL)
-		return (Null);
-	d->name = malloc((strlength(name) + 1) * (sizeof(char)));
+	{
+		return (NULL);
+	}
+	d->name = (char *)malloc((strlength(name) + 1) * (sizeof(char)));
 	if (d->name == NULL)
 	{
 		free(d);
-		return (Null);
+		return (NULL);
 	}
-	d->owner = malloc((strlength(owner) + 1) * (sizeof(char)));
+	d->owner = (char *)malloc((strlength(owner) + 1) * (sizeof(char)));
 	if (d->owner == NULL)
 	{
-		free(name);
+		free(d->name);
 		free(d);
 		return (NULL);
 	}
-	strcopy(d->name, name);
-	strcopy(d->owner, owner);
+	strcopy(name, d->name);
+	strcopy(owner, d->owner);
 	d->age = age;
 	return (d);
 }
